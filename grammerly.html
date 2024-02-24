@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="grammerly.css">
+<link rel="shortcut icon" type="image" href="Grammarly-Logo.png">
+<title>just do grammerly</title>
+</head>
+<body>
+
+<div class="headingOne">
+  <div class="logo">
+    <img src="Grammarly-Logo.png" style="width: 60px; margin-right: 10px;">
+  </div>
+  <div class="tagline">
+    <p  style="color: aquamarine; margin-top: 15px;">just do grammerly</p>
+  </div>
+</div>
+
+<br>
+<div class="heading"><h5 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">GrammarMaster: Your All-in-One Grammar Operations Platform</h5></div>
+<br>
+<form>
+<textarea id="inputHere" placeholder="INPUT"></textarea>
+
+<div class="buttonclass">
+<div class="upperbutton">
+<input type="button" id="countWords" value="Count Words" onclick="CountWords()">
+<input type="button" id="countLetters" value="Count letters" onclick="Countletters()">
+<input type="button" id="countSpaces" value="Count Spaces" onclick="CountSpaces()">
+<input type="button" id="countNewline" value="Count Newline" onclick="CountNewline()">
+<input type="button" id="titleCase" value="Title Case" onclick="TitleCase()"><br>
+</div>
+<div class="lowerbutton">
+<input type="button" id="countVowels" value="Count Vowels" onclick="CountVowels()">
+<input type="button" id="countConsonents" value="Count Consonents" onclick="CountConsonents()">
+<input type="button" id="sortWords" value="Sort Words" onclick="SortWords()">
+<input type="button" id="capital" value="Capital" onclick="Capital()">
+<input type="button" id="smallLetter" value="Small Letter" onclick="SmallLetter()">
+</div>
+</div>
+
+<br><br>
+<textarea id="result" placeholder="OUTPUT"></textarea><br>
+<input class="button" type="reset" value="RESET">
+</form>
+
+
+<script src="grammerly.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body> 
+</html>
